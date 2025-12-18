@@ -117,9 +117,18 @@ Trusted Publishers as described above are linked to _existing_ resources in a pa
 
 One solution to this issue is to implement [“Pending” Trusted Publishers](https://docs.pypi.org/trusted-publishers/creating-a-project-through-oidc/), which are only tied to a specific account or organization until after they’re used for the first time, at which point they are bound further to a specific package or package namespace. When being used to authenticate an upload for the first time, the “pending” model is converted into a normal Trusted Publisher and associated with the authenticated resource in the database. This is done within the same database transaction as persisting the models to avoid scenarios where there’s partial success during the upload process.
 
-## References
+## Support
 
-As of April 2024, the [Python Package Index](https://blog.pypi.org/posts/2023-04-20-introducing-trusted-publishers/), [RubyGems.org](https://blog.rubygems.org/2023/12/14/trusted-publishing.html), and [Dart’s pub.dev](https://dart.dev/tools/pub/automated-publishing) support Trusted Publishers.
+As of December 2025, the following package repositories support Trusted Publishers:
+
+- [Dart’s pub.dev](https://dart.dev/tools/pub/automated-publishing)
+- [npm](https://docs.npmjs.com/trusted-publishers)
+- [NuGet](https://learn.microsoft.com/en-us/nuget/nuget-org/trusted-publishing)
+- [Python Package Index](https://blog.pypi.org/posts/2023-04-20-introducing-trusted-publishers/)
+- [RubyGems.org](https://blog.rubygems.org/2023/12/14/trusted-publishing.html)
+- [Rust crates](https://crates.io/docs/trusted-publishing)
+
+## References
 
 * [https://docs.pypi.org/trusted-publishers/internals/](https://docs.pypi.org/trusted-publishers/internals/)
 * [https://docs.pypi.org/trusted-publishers/security-model/](https://docs.pypi.org/trusted-publishers/security-model/)
