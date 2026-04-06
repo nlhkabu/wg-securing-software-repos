@@ -46,13 +46,14 @@ See also https://repos.openssf.org/
 
 | Name | Repository/Home Page | Notes | Status |
 | --- | --- | --- | --- |
-| Repository Service for TUF | https://github.com/repository-service-tuf/repository-service-tuf |  [Meeting Notes](https://docs.google.com/document/d/13a_AtFpPK9WO4PlAN6ciD-G1jiBU3gEDtRD1OUinUFY/edit)  | Sandbox |
+| Repository Service for TUF | https://github.com/repository-service-tuf/repository-service-tuf |  [Meeting Notes](https://docs.google.com/document/d/13a_AtFpPK9WO4PlAN6ciD-G1jiBU3gEDtRD1OUinUFY/edit)  | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/repository_service_for_tuf_incubation_stage.md) |
+| Malicious Packages | https://github.com/ossf/malicious-packages | [Meeting Notes](https://docs.google.com/document/d/1YkxOFs9x9YCtUfYeOG7Gy3OBX0cTDbZTEgOdvmEo6FE/edit) | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/maliciouspackages_sandbox_stage.md) |
 
 ## Governance
 
 The [CHARTER.md](https://github.com/ossf/wg-securing-software-repos/blob/main/CHARTER.md) outlines the scope and governance of our group activities, as well as the maintainers of this repository.
 
-This group is co-chaired by [Dustin Ingram](https://github.com/di) and [Zach Steindler](https://github.com/steiza).
+This group is co-chaired by [Mike Fiedler](https://github.com/miketheman) and [Zach Steindler](https://github.com/steiza).
 
 ## Communication
 
